@@ -1,0 +1,41 @@
+<!-- Color Picker (c) emil.apps -->
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker | emil.apps</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body style="background: dodgerblue;">
+
+    <div id="pick-selection" class="hidden"></div>
+
+    <div class="container">
+        <div>
+            <h1>Pick</h1>
+            <div id="pick-color"></div>
+            <select id="pick-range">
+                <option class="c-white">white</option>
+                <option class="c-yellow">yellow</option>
+                <option class="c-orange">orange</option>
+                <option class="c-red">red</option>
+                <option class="c-violet">violet</option>
+                <option class="c-green">green</option>
+                <option class="c-blue">blue</option>
+                <option class="c-brown">brown</option>
+                <option class="c-gray">gray</option>
+                <option class="c-black" selected>black</option>
+            </select>
+        </div>
+        <div>
+            <h1>Convert</h1>
+            <div>
+                <input type="text" placeholder="HTML/RGB/HEX" id="conv_input">
+                <img id="convert-btn" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNDBweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSI0MHB4IiBmaWxsPSIjMDAwMDAwIj48cGF0aCBkPSJNNDgwLTE2MHEtMTMzLjMzIDAtMjI2LjY3LTkzLjMzUTE2MC0zNDYuNjcgMTYwLTQ4MHEwLTEzMy4zMyA5My4zMy0yMjYuNjdRMzQ2LjY3LTgwMCA0ODAtODAwcTc5LjY3IDAgMTQzLjMzIDMyLjUgNjMuNjcgMzIuNSAxMTAgOTAuMTdWLTgwMEg4MDB2MjYyLjY3SDUzNy4zM1YtNjA0aDE2OHEtMzYtNTguNjctOTMuODMtOTRUNDgwLTczMy4zM3EtMTA2IDAtMTc5LjY3IDczLjY2UTIyNi42Ny01ODYgMjI2LjY3LTQ4MHEwIDEwNiA3My42NiAxNzkuNjdRMzc0LTIyNi42NyA0ODAtMjI2LjY3cTgxIDAgMTQ3LjY3LTQ2LjMzIDY2LjY2LTQ2LjMzIDkzLTEyMi4zM0g3OTBRNzYxLjMzLTI5MCA2NzUuMzMtMjI1cS04NiA2NS0xOTUuMzMgNjVaIi8+PC9zdmc+" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
