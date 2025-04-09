@@ -3,4 +3,4 @@ Quickly mix colors and convert them between various formats. Try it out [here](h
 
 ## Credits
 - [Google Fonts](https://fonts.google.com) (JetBrains Mono)
-- [Google Icons](https://fonts.google.com/icons) (Refresh icon)
+- [Google Icons](https://fonts.google.com/icons) (refresh icon)
