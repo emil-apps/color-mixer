@@ -77,6 +77,11 @@ img:hover{
     transform: rotate(360deg);
 }
 
+img:active{
+    transform: scale(1.15);
+    background-color: darkgray;
+}
+
 select{
     outline: none;
     cursor: pointer;
@@ -152,7 +157,7 @@ select:focus{
     border: 1px solid lightgray;
     border-radius: 6px;
 
-    background: white;
+    background-image: none;
     transition: 0.2s;
 
     margin-bottom: 25px;
@@ -168,7 +173,7 @@ select:focus{
 
     border: 1px solid black;
     border-radius: 100%;
-    padding: 10px;
+    padding: 15px;
 
     opacity: 1;
     transform: scale(1);
